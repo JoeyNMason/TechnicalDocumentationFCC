@@ -1,0 +1,120 @@
+/* Media query for screens with a maximum width of 350 pixels */
+@media screen and (max-width: 350px) {
+  /* Styles to apply when the screen width is 350px or less */
+  
+  /* Adjusts the font size of the body to 16 pixels */
+  body {
+    font-size: 16px;
+  }
+}
+/* Sets the minimum width of the HTML and body elements */
+html, body {
+  min-width: 290px;
+}
+
+/* Colors the text with a shade of gray */
+html, body {
+  color: #4d4e53;
+}
+
+/* Colors the background with white */
+html, body {
+  background-color: #ffffff;
+}
+
+/* Specifies the font family to be used */
+html, body {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+/* Sets the line height to 1.5 times the font size */
+html, body {
+  line-height: 1.5;
+}
+
+/* Styles for the navbar */
+#navbar {
+  /* Fixes the navbar's position on the screen */
+  position: fixed;
+  /* Sets the minimum width of the navbar */
+  min-width: 290px;
+  /* Positions the navbar at the top-left corner of the viewport */
+  top: 0px;
+  left: 0px;
+  /* Specifies the width of the navbar */
+  width: 300px;
+  /* Specifies the height of the navbar to occupy the entire viewport */
+  height: 100%;
+  /* Adds a solid right border to the navbar */
+  border-right: solid;
+  /* Uses the current text color for the right border */
+  border-right-color: currentcolor;
+  /* Sets the color of the border to a semi-transparent dark color */
+  border-color: rgba(0, 22, 22, 0.4);
+}
+
+/* Styles for the header */
+header {
+  /* Sets the text color to black */
+  color: black;
+  /* Adds a margin of 10 pixels around the header */
+  margin: 10px;
+  /* Centers the text horizontally within the header */
+  text-align: center;
+  /* Sets the font size to 1.8 times the default font size */
+  font-size: 1.8em;
+  /* Sets the font weight to thin */
+  font-weight: thin;
+}
+
+/* Styles for the unordered list within the navbar */
+#navbar ul {
+  /* Sets the height of the unordered list to occupy 88% of its parent's height */
+  height: 88%;
+  /* Removes padding from the unordered list */
+  padding: 0;
+  /* Enables vertical scrolling if content overflows the list's height */
+  overflow-y: auto;
+  /* Hides horizontal overflow */
+  overflow-x: hidden;
+}
+
+/* Styles for the list items within the navbar */
+#navbar li {
+  /* Sets the text color of list items */
+  color: #4d4e53;
+  /* Adds a top border to separate list items */
+  border-top: 1px solid;
+  /* Removes default list styling */
+  list-style: none;
+  /* Positions list items relative to their containing block */
+  position: relative;
+  /* Sets the width of list items to occupy 100% of their parent's width */
+  width: 100%;
+}
+
+/* Styles for the links within the navbar */
+#navbar a {
+  /* Displays links as block-level elements */
+  display: block;
+  /* Adds padding to the links */
+  padding: 10px 30px;
+  /* Sets the text color of links */
+  color: #4d4e53;
+  /* Removes underline from links */
+  text-decoration: none;
+  /* Changes cursor to pointer on hover */
+  cursor: pointer;
+}
+
+/* Styles for the main document content */
+#main-doc {
+  /* Positions the main document content absolutely */
+  position: absolute;
+  /* Sets the left margin to create space for the navbar */
+  margin-left: 310px;
+  /* Adds padding to the main document content */
+  padding: 20px;
+  /* Adds margin at the bottom to prevent content from being hidden by the navbar */
+  margin-bottom: 110px;
+}
